@@ -1,0 +1,119 @@
+{
+    "configuration": {
+        "device": {
+            "orientation": "landscape",
+            "deviceName": "Desktop"
+        }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+        {
+            "description": "Loading of \"https://www.fahasa.com/\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://www.fahasa.com/"
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//section[@id=\\'header\\']/div/div[2]/div/div[2]/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//section[@id=\\'header\\']/div/div[2]/div/div[2]/div/div/div[3]/div[2]/div/div/div/div/div/div/h3/span/strong/a/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//div[@id=\\'menu-attributes\\']/dt[3]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "css",
+                        "value": "#m-left-attr-supplier_list448556"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "click",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {
+                "locators": [
+                    {
+                        "type": "dom",
+                        "value": "document.evaluate('//img[contains(@src,\\'https://cdn1.fahasa.com/media/catalog/product/6/0/600bui-ki-2_khoi-cong-dong-bi-mat_ban-gioi-han.jpg\\')]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                    }
+                ]
+            },
+            "type": "click",
+            "button": 0
+        },
+        {
+            "description": "Loading of \"https://www.fahasa.com/bui-ki-tap-2-khoi-cong-dong-bi-mat-ban-gioi-han-tang-kem-hop-postcard-578956.html?fhs_campaign=CATEGORY\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://www.fahasa.com/bui-ki-tap-2-khoi-cong-dong-bi-mat-ban-gioi-han-tang-kem-hop-postcard-578956.html?fhs_campaign=CATEGORY"
+        },
+        {
+            "description": "Loading of \"https://www.fahasa.com/kim-dong?fhs_campaign=ATTRIBUTE_PRODUCT\"",
+            "wait": {
+                "waitFor": "page_complete"
+            },
+            "target": {},
+            "type": "navigate",
+            "url": "https://www.fahasa.com/kim-dong?fhs_campaign=ATTRIBUTE_PRODUCT"
+        }
+    ]
+}
