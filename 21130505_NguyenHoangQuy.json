@@ -1,0 +1,533 @@
+{
+    "BookDetail_1": {
+        "configuration": {
+            "device": {
+                "orientation": "landscape",
+                "deviceName": "Desktop"
+            }
+        },
+        "type": "clickpath",
+        "version": "1.0",
+        "events": [
+            {
+                "description": "Loading of \"https://www.fahasa.com/\"",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {},
+                "type": "navigate",
+                "url": "https://www.fahasa.com/"
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//ul[@id=\\'flashsale_grid_item584060\\']/li/div/div/div[2]/h2/a/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "css",
+                            "value": "#expected_delivery_detail"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            }
+        ]
+    },
+    "BookDetail_2": {
+        "configuration": {
+            "device": {
+                "orientation": "landscape",
+                "deviceName": "Desktop"
+            }
+        },
+        "type": "clickpath",
+        "version": "1.0",
+        "events": [
+            {
+                "description": "Loading of \"https://www.fahasa.com/\"",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {},
+                "type": "navigate",
+                "url": "https://www.fahasa.com/"
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "css",
+                            "value": "#search_desktop"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "type Mưa đỏ",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "css",
+                            "value": "#search_desktop"
+                        }
+                    ]
+                },
+                "type": "keystrokes",
+                "textValue": "Mưa đỏ",
+                "simulateBlurEvent": true,
+                "masked": false
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//form[@id=\\'search_mini_form_desktop\\']/div/div/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//img[contains(@src,\\'https://cdn1.fahasa.com/media/catalog/product/m/u/muado.jpg\\')]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            }
+        ]
+    },
+    "BookDetail_3": {
+        "configuration": {
+            "device": {
+                "orientation": "landscape",
+                "deviceName": "Desktop"
+            }
+        },
+        "type": "clickpath",
+        "version": "1.0",
+        "events": [
+            {
+                "description": "Loading of \"https://www.fahasa.com/\"",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {},
+                "type": "navigate",
+                "url": "https://www.fahasa.com/"
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//section[@id=\\'header\\']/div/div[2]/div/div[2]/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//section[@id=\\'header\\']/div/div[2]/div/div[2]/div/div/div[3]/div[2]/div/div/div/div/div/div/ul/li/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//img[@alt=\\'Mưa Đỏ\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            }
+        ]
+    },
+    "BookRate_1": {
+        "configuration": {
+            "device": {
+                "orientation": "landscape",
+                "deviceName": "Desktop"
+            }
+        },
+        "type": "clickpath",
+        "version": "1.0",
+        "events": [
+            {
+                "description": "Loading of \"https://www.fahasa.com/mua-do-643343.html?fhs_campaign=CATEGORY\"",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {},
+                "type": "navigate",
+                "url": "https://www.fahasa.com/mua-do-643343.html?fhs_campaign=CATEGORY"
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "css",
+                            "value": "#btn_review_write"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//div[@id=\\'popup_write_review\\']/div/div[2]/div/div[2]/span[5]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "css",
+                            "value": "#nickname_field"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "type Nguyễn Văn A",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "css",
+                            "value": "#nickname_field"
+                        }
+                    ]
+                },
+                "type": "keystrokes",
+                "textValue": "Nguyễn Văn A",
+                "simulateBlurEvent": true,
+                "masked": false
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "css",
+                            "value": "#review_field"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "type \nMình rất vui khi thấy một tiểu thuyết lịch sử dân tộc được chuyển thể thành phim điện ảnh. Mưa Đỏ là khúc tráng ca bi hùng về 81 ngày đêm máu lửa ở Thành cổ Quảng Trị năm 1972. Chu Lai tái hiện một cách chân thực và xúc động sự khốc liệt của chiến tranh, nơi những người lính trẻ tuổi đôi mươi bước vào trận mạc với niềm tin và tình yêu Tổ quốc cháy bỏng. Về thể loại chiến tranh Việt Nam, Chu Lai đầu tư rất nhiều chất xám, lấy nhân vật làm trọng tâm, đồng thời nhấn mạnh sự đa dạng vùng miền, từ chất giọng đến từng tính cách. Điều này khiến mình cảm thấy không có nhân vật nào thật sự chính hay phụ; mỗi người đều có hoàn cảnh, lý tưởng sống, người thân và gia đình riêng. Mưa Đỏ truyền tải cảm giác chiến tranh một cách thật nhất: chết không chỉ là hết, giết kẻ thù không phải là xong. Nhiều đoạn khiến mình bật khóc, bởi cốt truyện xây dựng các nhân vật rất chu đáo, chân thực, kể cả kẻ thù cũng không bị phóng đại mà rất đời thường. Bộ phim kể một câu chuyện liền mạch, gắn bó chặt chẽ với lịch sử Việt Nam - vừa hào hùng, vừa bi tráng. Mình còn nhớ lúc đi mua Mưa Đỏ, hầu như các hiệu sách đã hết sạch, chỉ còn lại vài cuốn cuối cùng. Điều đó càng khiến mình thấy cuốn sách thật đáng giá và xứng đáng để đọc. Không chỉ là một câu chuyện lịch sử, mà còn là trải nghiệm sống động giúp mình cảm nhận rõ sự hy sinh, lòng dũng cảm và tình yêu Tổ quốc cháy bỏng của những con người đã đi qua chiến tranh. Qua Mưa Đỏ, mình nhận thấy thông điệp về Kỷ nguyên vươn mình không quên cội nguồn: Chúng ta cần bảo vệ và giữ gìn lịch sử, văn hóa, những giá trị đã được bao thế hệ xây dựng và gìn giữ. Học từ quá khứ để vươn tới tương lai mạnh mẽ hơn, đồng thời luôn trân trọng và gìn giữ hòa bình cùng những giá trị dân tộc thiêng liêng.",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "css",
+                            "value": "#review_field"
+                        }
+                    ]
+                },
+                "type": "keystrokes",
+                "textValue": "\nMình rất vui khi thấy một tiểu thuyết lịch sử dân tộc được chuyển thể thành phim điện ảnh. Mưa Đỏ là khúc tráng ca bi hùng về 81 ngày đêm máu lửa ở Thành cổ Quảng Trị năm 1972. Chu Lai tái hiện một cách chân thực và xúc động sự khốc liệt của chiến tranh, nơi những người lính trẻ tuổi đôi mươi bước vào trận mạc với niềm tin và tình yêu Tổ quốc cháy bỏng. Về thể loại chiến tranh Việt Nam, Chu Lai đầu tư rất nhiều chất xám, lấy nhân vật làm trọng tâm, đồng thời nhấn mạnh sự đa dạng vùng miền, từ chất giọng đến từng tính cách. Điều này khiến mình cảm thấy không có nhân vật nào thật sự chính hay phụ; mỗi người đều có hoàn cảnh, lý tưởng sống, người thân và gia đình riêng. Mưa Đỏ truyền tải cảm giác chiến tranh một cách thật nhất: chết không chỉ là hết, giết kẻ thù không phải là xong. Nhiều đoạn khiến mình bật khóc, bởi cốt truyện xây dựng các nhân vật rất chu đáo, chân thực, kể cả kẻ thù cũng không bị phóng đại mà rất đời thường. Bộ phim kể một câu chuyện liền mạch, gắn bó chặt chẽ với lịch sử Việt Nam - vừa hào hùng, vừa bi tráng. Mình còn nhớ lúc đi mua Mưa Đỏ, hầu như các hiệu sách đã hết sạch, chỉ còn lại vài cuốn cuối cùng. Điều đó càng khiến mình thấy cuốn sách thật đáng giá và xứng đáng để đọc. Không chỉ là một câu chuyện lịch sử, mà còn là trải nghiệm sống động giúp mình cảm nhận rõ sự hy sinh, lòng dũng cảm và tình yêu Tổ quốc cháy bỏng của những con người đã đi qua chiến tranh. Qua Mưa Đỏ, mình nhận thấy thông điệp về Kỷ nguyên vươn mình không quên cội nguồn: Chúng ta cần bảo vệ và giữ gìn lịch sử, văn hóa, những giá trị đã được bao thế hệ xây dựng và gìn giữ. Học từ quá khứ để vươn tới tương lai mạnh mẽ hơn, đồng thời luôn trân trọng và gìn giữ hòa bình cùng những giá trị dân tộc thiêng liêng.",
+                "simulateBlurEvent": true,
+                "masked": false
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//div[@id=\\'popup_write_review\\']/div/div[2]/div[2]/button[2]/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//div[@id=\\'popup-notification-msg\\']/div[3]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            }
+        ]
+    },
+    "BookRate_2": {
+        "configuration": {
+            "device": {
+                "orientation": "landscape",
+                "deviceName": "Desktop"
+            }
+        },
+        "type": "clickpath",
+        "version": "1.0",
+        "events": [
+            {
+                "description": "Loading of \"https://www.fahasa.com/mua-do-643343.html?fhs_campaign=CATEGORY\"",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {},
+                "type": "navigate",
+                "url": "https://www.fahasa.com/mua-do-643343.html?fhs_campaign=CATEGORY"
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "css",
+                            "value": "#btn_review_write"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//div[@id=\\'popup_write_review\\']/div/div[2]/div/div[2]/span[5]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//span[@onclick=\\'prodComment.IncognitoClick(this);\\']', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "css",
+                            "value": "#nickname_field"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "type Nguyễn Vắn A",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "css",
+                            "value": "#nickname_field"
+                        }
+                    ]
+                },
+                "type": "keystrokes",
+                "textValue": "Nguyễn Vắn A",
+                "simulateBlurEvent": true,
+                "masked": false
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "css",
+                            "value": "#review_field"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "type Mình rất vui khi thấy một tiểu thuyết lịch sử dân tộc được chuyển thể thành phim điện ảnh. Mưa Đỏ là khúc tráng ca bi hùng về 81 ngày đêm máu lửa ở Thành cổ Quảng Trị năm 1972. Chu Lai tái hiện một cách chân thực và xúc động sự khốc liệt của chiến tranh, nơi những người lính trẻ tuổi đôi mươi bước vào trận mạc với niềm tin và tình yêu Tổ quốc cháy bỏng. Về thể loại chiến tranh Việt Nam, Chu Lai đầu tư rất nhiều chất xám, lấy nhân vật làm trọng tâm, đồng thời nhấn mạnh sự đa dạng vùng miền, từ chất giọng đến từng tính cách. Điều này khiến mình cảm thấy không có nhân vật nào thật sự chính hay phụ; mỗi người đều có hoàn cảnh, lý tưởng sống, người thân và gia đình riêng. Mưa Đỏ truyền tải cảm giác chiến tranh một cách thật nhất: chết không chỉ là hết, giết kẻ thù không phải là xong. Nhiều đoạn khiến mình bật khóc, bởi cốt truyện xây dựng các nhân vật rất chu đáo, chân thực, kể cả kẻ thù cũng không bị phóng đại mà rất đời thường. Bộ phim kể một câu chuyện liền mạch, gắn bó chặt chẽ với lịch sử Việt Nam - vừa hào hùng, vừa bi tráng. Mình còn nhớ lúc đi mua Mưa Đỏ, hầu như các hiệu sách đã hết sạch, chỉ còn lại vài cuốn cuối cùng. Điều đó càng khiến mình thấy cuốn sách thật đáng giá và xứng đáng để đọc. Không chỉ là một câu chuyện lịch sử, mà còn là trải nghiệm sống động giúp mình cảm nhận rõ sự hy sinh, lòng dũng cảm và tình yêu Tổ quốc cháy bỏng của những con người đã đi qua chiến tranh. Qua Mưa Đỏ, mình nhận thấy thông điệp về Kỷ nguyên vươn mình không quên cội nguồn: Chúng ta cần bảo vệ và giữ gìn lịch sử, văn hóa, những giá trị đã được bao thế hệ xây dựng và gìn giữ. Học từ quá khứ để vươn tới tương lai mạnh mẽ hơn, đồng thời luôn trân trọng và gìn giữ hòa bình cùng những giá trị dân tộc thiêng liêng.",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "css",
+                            "value": "#review_field"
+                        }
+                    ]
+                },
+                "type": "keystrokes",
+                "textValue": "Mình rất vui khi thấy một tiểu thuyết lịch sử dân tộc được chuyển thể thành phim điện ảnh. Mưa Đỏ là khúc tráng ca bi hùng về 81 ngày đêm máu lửa ở Thành cổ Quảng Trị năm 1972. Chu Lai tái hiện một cách chân thực và xúc động sự khốc liệt của chiến tranh, nơi những người lính trẻ tuổi đôi mươi bước vào trận mạc với niềm tin và tình yêu Tổ quốc cháy bỏng. Về thể loại chiến tranh Việt Nam, Chu Lai đầu tư rất nhiều chất xám, lấy nhân vật làm trọng tâm, đồng thời nhấn mạnh sự đa dạng vùng miền, từ chất giọng đến từng tính cách. Điều này khiến mình cảm thấy không có nhân vật nào thật sự chính hay phụ; mỗi người đều có hoàn cảnh, lý tưởng sống, người thân và gia đình riêng. Mưa Đỏ truyền tải cảm giác chiến tranh một cách thật nhất: chết không chỉ là hết, giết kẻ thù không phải là xong. Nhiều đoạn khiến mình bật khóc, bởi cốt truyện xây dựng các nhân vật rất chu đáo, chân thực, kể cả kẻ thù cũng không bị phóng đại mà rất đời thường. Bộ phim kể một câu chuyện liền mạch, gắn bó chặt chẽ với lịch sử Việt Nam - vừa hào hùng, vừa bi tráng. Mình còn nhớ lúc đi mua Mưa Đỏ, hầu như các hiệu sách đã hết sạch, chỉ còn lại vài cuốn cuối cùng. Điều đó càng khiến mình thấy cuốn sách thật đáng giá và xứng đáng để đọc. Không chỉ là một câu chuyện lịch sử, mà còn là trải nghiệm sống động giúp mình cảm nhận rõ sự hy sinh, lòng dũng cảm và tình yêu Tổ quốc cháy bỏng của những con người đã đi qua chiến tranh. Qua Mưa Đỏ, mình nhận thấy thông điệp về Kỷ nguyên vươn mình không quên cội nguồn: Chúng ta cần bảo vệ và giữ gìn lịch sử, văn hóa, những giá trị đã được bao thế hệ xây dựng và gìn giữ. Học từ quá khứ để vươn tới tương lai mạnh mẽ hơn, đồng thời luôn trân trọng và gìn giữ hòa bình cùng những giá trị dân tộc thiêng liêng.",
+                "simulateBlurEvent": true,
+                "masked": false
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//div[@id=\\'popup_write_review\\']/div/div[2]/div[2]/button[2]/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//div[@id=\\'popup-notification-msg\\']/div[3]/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            }
+        ]
+    }
+}
