@@ -1,0 +1,670 @@
+{
+  "version": "1.0",
+  "name": "Fahasa_All_Test_Cases_Complete",
+  "description": "Combined automation test cases for Fahasa.com - Filter Products, Write Review, Like Review",
+  "configuration": {
+    "device": {
+      "orientation": "landscape",
+      "deviceName": "Desktop"
+    }
+  },
+  "testCases": [
+    {
+      "id": "TC2.1",
+      "name": "TC2.1_Filter_Products_By_Price",
+      "description": "Test Case: Lọc sản phẩm theo giá từ 150.000đ - 300.000đ",
+      "type": "clickpath",
+      "url": "https://www.fahasa.com/",
+      "events": [
+        {
+          "sequence": 1,
+          "description": "Navigate to Fahasa homepage",
+          "type": "navigate",
+          "url": "https://www.fahasa.com/",
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 2,
+          "description": "Click to open category menu",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "dom",
+                "value": "document.evaluate('//section[@id=\"header\"]/div/div[2]/div/div[2]/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 3,
+          "description": "Select Light Novel category",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "dom",
+                "value": "document.evaluate('//section[@id=\"header\"]/div/div[2]/div/div[2]/div/div/div[3]/div[2]/div/div/div/div/div/div/h3/span/strong/a/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 4,
+          "description": "Open price filter section",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "css",
+                "value": "#price-m-1"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 5,
+          "description": "Verify product price 150k-300k range",
+          "type": "verify",
+          "target": {
+            "locators": [
+              {
+                "type": "dom",
+                "value": "document.evaluate('//span[@id=\"product-price-643343\"]/span/div/p/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+              }
+            ]
+          },
+          "expectedText": "150,000đ",
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        }
+      ]
+    },
+    {
+      "id": "TC3.1",
+      "name": "TC3.1_Write_Review_for_Book",
+      "description": "Test Case: Viết đánh giá cho sách Mưa Đỏ với 5 sao",
+      "type": "clickpath",
+      "url": "https://www.fahasa.com/",
+      "events": [
+        {
+          "sequence": 1,
+          "description": "Navigate to Fahasa homepage",
+          "type": "navigate",
+          "url": "https://www.fahasa.com/",
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 2,
+          "description": "Click account menu to login",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "dom",
+                "value": "document.evaluate('//div[@id=\"fhs_top_account_hover\"]/a/div/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 3,
+          "description": "Click username input field",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "css",
+                "value": "#login_username"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 4,
+          "description": "Enter username",
+          "type": "input",
+          "target": {
+            "locators": [
+              {
+                "type": "css",
+                "value": "#login_username"
+              }
+            ]
+          },
+          "value": "0918529397",
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 5,
+          "description": "Click password input field",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "css",
+                "value": "#login_password"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 6,
+          "description": "Enter password",
+          "type": "input",
+          "target": {
+            "locators": [
+              {
+                "type": "css",
+                "value": "#login_password"
+              }
+            ]
+          },
+          "value": "12345678",
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 7,
+          "description": "Click login button",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "dom",
+                "value": "document.evaluate('//div[@id=\"wrapper\"]/div[2]/div/div/div[2]/div/div/div[5]/div/div/div[2]/form/div[5]/div/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 8,
+          "description": "Click search box",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "css",
+                "value": "#search_desktop"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 9,
+          "description": "Type book name Mưa đỏ",
+          "type": "input",
+          "target": {
+            "locators": [
+              {
+                "type": "css",
+                "value": "#search_desktop"
+              }
+            ]
+          },
+          "value": "Mưa đỏ",
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 10,
+          "description": "Click search button",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "dom",
+                "value": "document.evaluate('//form[@id=\"search_mini_form_desktop\"]/div/div/span/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 11,
+          "description": "Click book image result",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "dom",
+                "value": "document.evaluate('//img[contains(@src,\"https://cdn1.fahasa.com/media/catalog/product/m/u/muado.jpg\")]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 12,
+          "description": "Click write review button",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "css",
+                "value": "#btn_review_write"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 13,
+          "description": "Click 5-star rating",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "dom",
+                "value": "document.evaluate('//div[@id=\"popup_write_review\"]/div/div[2]/div/div[3]/div/span/span[2]/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 14,
+          "description": "Click nickname field",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "css",
+                "value": "#nickname_field"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 15,
+          "description": "Enter review nickname",
+          "type": "input",
+          "target": {
+            "locators": [
+              {
+                "type": "css",
+                "value": "#nickname_field"
+              }
+            ]
+          },
+          "value": "Tiger",
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 16,
+          "description": "Click review content field",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "css",
+                "value": "#review_field"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 17,
+          "description": "Enter review content",
+          "type": "input",
+          "target": {
+            "locators": [
+              {
+                "type": "css",
+                "value": "#review_field"
+              }
+            ]
+          },
+          "value": "Đây là một cuốn sách rất hay, tôi thích cách tác giả kể chuyện. Nội dung sâu sắc và hấp dẫn. Tôi khuyên các bạn nên đọc cuốn sách này.",
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 18,
+          "description": "Click submit review button",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "dom",
+                "value": "document.evaluate('//div[@id=\"popup_write_review\"]/div/div[2]/div[2]/button[2]/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 19,
+          "description": "Close success notification",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "dom",
+                "value": "document.evaluate('//div[@id=\"popup-notification-msg\"]/div[3]/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 20,
+          "description": "Verify review submitted successfully",
+          "type": "verify",
+          "target": {
+            "locators": [
+              {
+                "type": "css",
+                "value": "#btn_review_write"
+              }
+            ]
+          },
+          "expectedPresent": true,
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        }
+      ]
+    },
+    {
+      "id": "TC3.3",
+      "name": "TC3.3_Like_Other_Review",
+      "description": "Test Case: Thích lời đánh giá của người khác trên sách Mưa Đỏ",
+      "type": "clickpath",
+      "url": "https://www.fahasa.com/",
+      "events": [
+        {
+          "sequence": 1,
+          "description": "Navigate to Fahasa homepage",
+          "type": "navigate",
+          "url": "https://www.fahasa.com/",
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 2,
+          "description": "Click search box",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "css",
+                "value": "#search_desktop"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 3,
+          "description": "Type book name Mưa đỏ",
+          "type": "input",
+          "target": {
+            "locators": [
+              {
+                "type": "css",
+                "value": "#search_desktop"
+              }
+            ]
+          },
+          "value": "Mưa đỏ",
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 4,
+          "description": "Click search result for Mưa Đỏ",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "css",
+                "value": "a:contains(\"Mưa Đỏ\")"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 5,
+          "description": "Click on review to view details",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "dom",
+                "value": "document.evaluate('//div[@value=\"269787\"]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 6,
+          "description": "Click review again",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "dom",
+                "value": "document.evaluate('//div[@value=\"269787\"]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 7,
+          "description": "Click like/helpful button on review",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "dom",
+                "value": "document.evaluate('//li[@id=\"review-269787\"]/div[2]/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 8,
+          "description": "Click report helpful button",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "dom",
+                "value": "document.evaluate('//li[@id=\"review-269787\"]/div[2]/div[3]/div/span[2]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 9,
+          "description": "Click username field for login",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "css",
+                "value": "#login_username"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 10,
+          "description": "Enter username",
+          "type": "input",
+          "target": {
+            "locators": [
+              {
+                "type": "css",
+                "value": "#login_username"
+              }
+            ]
+          },
+          "value": "0918529397",
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 11,
+          "description": "Click password field",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "css",
+                "value": "#login_password"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 12,
+          "description": "Enter password",
+          "type": "input",
+          "target": {
+            "locators": [
+              {
+                "type": "css",
+                "value": "#login_password"
+              }
+            ]
+          },
+          "value": "12345678",
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 13,
+          "description": "Click login button",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "dom",
+                "value": "document.evaluate('//div[@id=\"wrapper\"]/div[2]/div/div/div[2]/div/div/div[3]/div[2]/form/div[5]/div/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 14,
+          "description": "Click helpful button to like review",
+          "type": "click",
+          "target": {
+            "locators": [
+              {
+                "type": "dom",
+                "value": "document.evaluate('//li[@id=\"review-269787\"]/div[2]/div[3]/div/span[2]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+              }
+            ]
+          },
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        },
+        {
+          "sequence": 15,
+          "description": "Verify like count increased",
+          "type": "verify",
+          "target": {
+            "locators": [
+              {
+                "type": "dom",
+                "value": "document.evaluate('//li[@id=\"review-269787\"]/div[2]/div[3]/div/span[1]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+              }
+            ]
+          },
+          "expectedPresent": true,
+          "wait": {
+            "waitFor": "page_complete"
+          }
+        }
+      ]
+    }
+  ]
+}
