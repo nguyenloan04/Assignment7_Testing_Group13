@@ -1,0 +1,1942 @@
+{
+  "TC_LOGIN_Authentication_2": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://www.fahasa.com/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://www.fahasa.com/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'fhs_top_account_hover\\']/div/div/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#login_username"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type 0359449231",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#login_username"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "0359449231",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#login_password"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type lab3lab3",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#login_password"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "lab3lab3",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'wrapper\\']/div[2]/div/div/div[2]/div/div/div[3]/div[2]/form/div[5]/div/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+
+  "TC_LOGIN_Authentication_1": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://www.fahasa.com/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://www.fahasa.com/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'fhs_top_account_hover\\']/div/div/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#login_username"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type 0359449231",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#login_username"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "0359449231",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#login_password"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type lab7lab7",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#login_password"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "lab7lab7",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'wrapper\\']/div[2]/div/div/div[2]/div/div/div[3]/div[2]/form/div[5]/div/button', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+
+  "TC_CHANGEPASS_Authentication_1": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://www.fahasa.com/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://www.fahasa.com/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'fhs_top_account_hover\\']/a/div/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Đổi mật khẩu\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#current_password"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type lab7lab7",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#current_password"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "lab7lab7",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#password"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type lab3lab3",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#password"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "lab3lab3",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#confirmation"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type lab3lab3",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#confirmation"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "lab3lab3",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@id=\\'btn-confirm-change-password\\']/span/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+
+  "TC_CHANGEPASS_Authentication_2": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://www.fahasa.com/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://www.fahasa.com/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'fhs_top_account_hover\\']/a/div/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Đổi mật khẩu\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#current_password"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type lab5lab5",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#current_password"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "lab5lab5",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#password"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type lab3lab3",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#password"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "lab3lab3",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#confirmation"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#confirmation"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type lab3lab3",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#confirmation"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "lab3lab3",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@id=\\'btn-confirm-change-password\\']/span/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+
+  "TC_READ_INFOUSER_1": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://www.fahasa.com/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://www.fahasa.com/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'fhs_top_account_hover\\']/a/div/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Hồ sơ cá nhân\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+
+  "TC_EDIT_INFOUSER_1": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://www.fahasa.com/customer/account/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://www.fahasa.com/customer/account/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#lastname"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//form[@id=\\'form-account-info\\']/div/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type Trần",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#lastname"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "Trần",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#firstname"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type Thu",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#firstname"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "Thu",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//form[@id=\\'form-account-info\\']/div/div[5]/div/div/div/label/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@id=\\'btn-save-account-info\\']/span/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+
+  "TC_EDIT_INFOUSER_2": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://www.fahasa.com/customer/account/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://www.fahasa.com/customer/account/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#lastname"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type ",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#lastname"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#firstname"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type ",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#firstname"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//button[@id=\\'btn-save-account-info\\']/span/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+
+  "TC_READ_ADDRESS_1": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://www.fahasa.com/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://www.fahasa.com/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'fhs_top_account_hover\\']/a/div/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "a:contains(\"Sổ địa chỉ\")"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+
+  "TC_ADD_ADDRESS_1": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://www.fahasa.com/customer/address/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://www.fahasa.com/customer/address/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//span[@onclick=\"window.location=\\'https://www.fahasa.com/customer/address/new/\\';\"]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//form[@id=\\'form-validate\\']/div/ul/li[2]/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type Trần Minh",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#lastname"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "Trần Minh",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//form[@id=\\'form-validate\\']/div/ul/li[3]/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type Thư",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#firstname"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "Thư",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#telephone"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#telephone"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type 0359449231",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#telephone"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "0359449231",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#region_id"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#country"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "select option",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "javascript",
+        "javaScript": "\n                    let add = false;\n                    let x = typeof $ !== 'undefined' ? $('#country')[0] : document.querySelector('#country');\n                    for (i = 0; i < x.options.length; i++) {\n                        if (x.options[i].text === \"Việt Nam\") {\n                            if(add) {\n                                x.options[i].selected = true;\n                            } else {\n                                x.options.selectedIndex = i;\n                            }\n                        }\n                    }"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#region_id"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "select option",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "javascript",
+        "javaScript": "\n                    let add = false;\n                    let x = typeof $ !== 'undefined' ? $('#region_id')[0] : document.querySelector('#region_id');\n                    for (i = 0; i < x.options.length; i++) {\n                        if (x.options[i].text === \"Hồ Chí Minh\") {\n                            if(add) {\n                                x.options[i].selected = true;\n                            } else {\n                                x.options.selectedIndex = i;\n                            }\n                        }\n                    }"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#city_id"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "select option",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "javascript",
+        "javaScript": "\n                    let add = false;\n                    let x = typeof $ !== 'undefined' ? $('#city_id')[0] : document.querySelector('#city_id');\n                    for (i = 0; i < x.options.length; i++) {\n                        if (x.options[i].text === \"Thành Phố Thủ Đức\") {\n                            if(add) {\n                                x.options[i].selected = true;\n                            } else {\n                                x.options.selectedIndex = i;\n                            }\n                        }\n                    }"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#ward_id"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "select option",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "javascript",
+        "javaScript": "\n                    let add = false;\n                    let x = typeof $ !== 'undefined' ? $('#ward_id')[0] : document.querySelector('#ward_id');\n                    for (i = 0; i < x.options.length; i++) {\n                        if (x.options[i].text === \"Phường Linh Trung\") {\n                            if(add) {\n                                x.options[i].selected = true;\n                            } else {\n                                x.options.selectedIndex = i;\n                            }\n                        }\n                    }"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#street_1"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type Trường Đại học Nông Lâm",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#street_1"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "Trường Đại học Nông Lâm",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//form[@id=\\'form-validate\\']/div[2]/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+
+  "TC_ADD_ADDRESS_2": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://www.fahasa.com/customer/address/index/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://www.fahasa.com/customer/address/index/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//span[@onclick=\"window.location=\\'https://www.fahasa.com/customer/address/new/\\';\"]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "Loading of \"https://www.fahasa.com/customer/address/new/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://www.fahasa.com/customer/address/new/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#lastname"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//form[@id=\\'form-validate\\']/div/ul/li[2]/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type ",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#lastname"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#firstname"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type ",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#firstname"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#telephone"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#region_id"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "select option",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "javascript",
+        "javaScript": "\n                    let add = false;\n                    let x = typeof $ !== 'undefined' ? $('#region_id')[0] : document.querySelector('#region_id');\n                    for (i = 0; i < x.options.length; i++) {\n                        if (x.options[i].text === \"Hồ Chí Minh\") {\n                            if(add) {\n                                x.options[i].selected = true;\n                            } else {\n                                x.options.selectedIndex = i;\n                            }\n                        }\n                    }"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//form[@id=\\'form-validate\\']/div[2]/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+
+  "TC_EDIT_ADDRESS_1": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://www.fahasa.com/customer/address/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://www.fahasa.com/customer/address/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'wrapper\\']/div[2]/div/div/div[2]/div/div/div[2]/div[5]/div[2]/div[2]/div/div[2]/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#lastname"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type Trần",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#lastname"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "Trần",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#firstname"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type Thu",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#firstname"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "Thu",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#telephone"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type 0359449232",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#telephone"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "0359449232",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#ward_id"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "select option",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "javascript",
+        "javaScript": "\n                    let add = false;\n                    let x = typeof $ !== 'undefined' ? $('#ward_id')[0] : document.querySelector('#ward_id');\n                    for (i = 0; i < x.options.length; i++) {\n                        if (x.options[i].text === \"Phường Linh Xuân\") {\n                            if(add) {\n                                x.options[i].selected = true;\n                            } else {\n                                x.options.selectedIndex = i;\n                            }\n                        }\n                    }"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#street_1"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//form[@id=\\'form-validate\\']/div/ul/li[9]/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type Cầu Vượt Linh Xuân",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#street_1"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "Cầu Vượt Linh Xuân",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#primary_shipping"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//form[@id=\\'form-validate\\']/div[2]/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+
+  "TC_EDIT_ADDRESS_2": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://www.fahasa.com/customer/address/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://www.fahasa.com/customer/address/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'wrapper\\']/div[2]/div/div/div[2]/div/div/div[2]/div[5]/div[2]/div/div[2]/p/a', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#lastname"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type ",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#lastname"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#firstname"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type ",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#firstname"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#telephone"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type ",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#telephone"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#street_1"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      },
+      {
+        "description": "type ",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "css",
+              "value": "#street_1"
+            }
+          ]
+        },
+        "type": "keystrokes",
+        "textValue": "",
+        "simulateBlurEvent": true,
+        "masked": false
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//form[@id=\\'form-validate\\']/div[2]/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  },
+
+  "TC_LOGOUT_Authentication_1": {
+    "configuration": {
+      "device": {
+        "orientation": "landscape",
+        "deviceName": "Desktop"
+      }
+    },
+    "type": "clickpath",
+    "version": "1.0",
+    "events": [
+      {
+        "description": "Loading of \"https://www.fahasa.com/\"",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {},
+        "type": "navigate",
+        "url": "https://www.fahasa.com/"
+      },
+      {
+        "description": "click",
+        "wait": {
+          "waitFor": "page_complete"
+        },
+        "target": {
+          "locators": [
+            {
+              "type": "dom",
+              "value": "document.evaluate('//div[@id=\\'fhs_top_account_hover\\']/div/div[6]/a/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+            }
+          ]
+        },
+        "type": "click",
+        "button": 0
+      }
+    ]
+  }
+}
