@@ -527,6 +527,155 @@
             }
         ]
     },
+    "SEARCH_RESULT_01": {
+        "configuration": {
+            "device": {
+                "orientation": "landscape",
+                "deviceName": "Desktop"
+            }
+        },
+        "type": "clickpath",
+        "version": "1.0",
+        "events": [
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "css",
+                            "value": "#search_desktop"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "type Mưa đỏ",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "css",
+                            "value": "#search_desktop"
+                        }
+                    ]
+                },
+                "type": "keystrokes",
+                "textValue": "Mưa đỏ",
+                "simulateBlurEvent": true,
+                "masked": false
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//form[@id=\\'search_mini_form_desktop\\']/div/div/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//img[contains(@src,\\'https://cdn1.fahasa.com/media/catalog/product/m/u/muado.jpg\\')]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            }
+        ]
+    },
+    "SEARCH_RESULT_02": {
+        "configuration": {
+            "device": {
+                "orientation": "landscape",
+                "deviceName": "Desktop"
+            }
+        },
+        "type": "clickpath",
+        "version": "1.0",
+        "events": [
+            {
+                "description": "Loading of \"https://www.fahasa.com/\"",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {},
+                "type": "navigate",
+                "url": "https://www.fahasa.com/"
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "css",
+                            "value": "#search_desktop"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "type ASDASDASD",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "css",
+                            "value": "#search_desktop"
+                        }
+                    ]
+                },
+                "type": "keystrokes",
+                "textValue": "ASDASDASD",
+                "simulateBlurEvent": true,
+                "masked": false
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//form[@id=\\'search_mini_form_desktop\\']/div/div/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            }
+        ]
+    },
     "SEARCH_FILTER_01": {
         "configuration": {
             "device": {
@@ -665,8 +814,23 @@
                 "type": "keystrokes",
                 "textValue": "Mưa đỏ",
                 "simulateBlurEvent": true,
-                "masked": false,
-                "simulateReturnKey": true
+                "masked": false
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//form[@id=\\'search_mini_form_desktop\\']/div/div/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
             },
             {
                 "description": "click",
@@ -753,8 +917,23 @@
                 "type": "keystrokes",
                 "textValue": "Mưa đỏ",
                 "simulateBlurEvent": true,
-                "masked": false,
-                "simulateReturnKey": true
+                "masked": false
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//form[@id=\\'search_mini_form_desktop\\']/div/div/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
             },
             {
                 "description": "click",
@@ -841,8 +1020,23 @@
                 "type": "keystrokes",
                 "textValue": "Mưa đỏ",
                 "simulateBlurEvent": true,
-                "masked": false,
-                "simulateReturnKey": true
+                "masked": false
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//form[@id=\\'search_mini_form_desktop\\']/div/div/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
             },
             {
                 "description": "click",
@@ -1003,134 +1197,6 @@
                 },
                 "type": "click",
                 "button": 0
-            }
-        ]
-    },
-    "SEARCH_RESULT_01": {
-        "configuration": {
-            "device": {
-                "orientation": "landscape",
-                "deviceName": "Desktop"
-            }
-        },
-        "type": "clickpath",
-        "version": "1.0",
-        "events": [
-            {
-                "description": "Loading of \"https://www.fahasa.com/\"",
-                "wait": {
-                    "waitFor": "page_complete"
-                },
-                "target": {},
-                "type": "navigate",
-                "url": "https://www.fahasa.com/"
-            },
-            {
-                "description": "click",
-                "wait": {
-                    "waitFor": "page_complete"
-                },
-                "target": {
-                    "locators": [
-                        {
-                            "type": "dom",
-                            "value": "document.evaluate('//section[@id=\\'header\\']/div/div[2]/div/div[3]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
-                        }
-                    ]
-                },
-                "type": "click",
-                "button": 0
-            },
-            {
-                "description": "type Mưa đỏ",
-                "wait": {
-                    "waitFor": "page_complete"
-                },
-                "target": {
-                    "locators": [
-                        {
-                            "type": "css",
-                            "value": "#search_desktop"
-                        }
-                    ]
-                },
-                "type": "keystrokes",
-                "textValue": "Mưa đỏ",
-                "simulateBlurEvent": true,
-                "masked": false,
-                "simulateReturnKey": true
-            },
-            {
-                "description": "click",
-                "wait": {
-                    "waitFor": "page_complete"
-                },
-                "target": {
-                    "locators": [
-                        {
-                            "type": "dom",
-                            "value": "document.evaluate('//img[contains(@src,\\'https://cdn1.fahasa.com/media/catalog/product/m/u/muado.jpg\\')]', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
-                        }
-                    ]
-                },
-                "type": "click",
-                "button": 0
-            }
-        ]
-    },
-    "SEARCH_RESULT_02": {
-        "configuration": {
-            "device": {
-                "orientation": "landscape",
-                "deviceName": "Desktop"
-            }
-        },
-        "type": "clickpath",
-        "version": "1.0",
-        "events": [
-            {
-                "description": "Loading of \"https://www.fahasa.com/\"",
-                "wait": {
-                    "waitFor": "page_complete"
-                },
-                "target": {},
-                "type": "navigate",
-                "url": "https://www.fahasa.com/"
-            },
-            {
-                "description": "click",
-                "wait": {
-                    "waitFor": "page_complete"
-                },
-                "target": {
-                    "locators": [
-                        {
-                            "type": "css",
-                            "value": "#search_desktop"
-                        }
-                    ]
-                },
-                "type": "click",
-                "button": 0
-            },
-            {
-                "description": "type ASDASDASD",
-                "wait": {
-                    "waitFor": "page_complete"
-                },
-                "target": {
-                    "locators": [
-                        {
-                            "type": "css",
-                            "value": "#search_desktop"
-                        }
-                    ]
-                },
-                "type": "keystrokes",
-                "textValue": "ASDASDASD",
-                "simulateBlurEvent": true,
-                "masked": false,
-                "simulateReturnKey": true
             }
         ]
     }
