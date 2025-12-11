@@ -1,0 +1,167 @@
+{
+    "PAY_ORDER": {
+        "configuration": {
+            "device": {
+                "orientation": "landscape",
+                "deviceName": "Desktop"
+            }
+        },
+        "type": "clickpath",
+        "version": "1.0",
+        "events": [
+            {
+                "description": "Loading of \"https://www.fahasa.com/checkout/cart/\"",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {},
+                "type": "navigate",
+                "url": "https://www.fahasa.com/checkout/cart/"
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "css",
+                            "value": "#checkbox-product-422565"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//form[@id=\\'form-cart\\']/div/div[2]/div/div/div[4]/div[2]/div/button/span/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "Loading of \"https://www.fahasa.com/onestepcheckout/index\"",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {},
+                "type": "navigate",
+                "url": "https://www.fahasa.com/onestepcheckout/index"
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//div[@id=\\'wrapper\\']/div[2]/div/div/div[2]/div/div/div[14]/div[2]/div[3]/div/div/div[2]/div[3]/div/button/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "Loading of \"https://www.fahasa.com/checkout/onepage/success/\"",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {},
+                "type": "navigate",
+                "url": "https://www.fahasa.com/checkout/onepage/success/"
+            }
+        ]
+    },
+    "CANCLE_ORDER": {
+        "configuration": {
+            "device": {
+                "orientation": "landscape",
+                "deviceName": "Desktop"
+            }
+        },
+        "type": "clickpath",
+        "version": "1.0",
+        "events": [
+            {
+                "description": "Loading of \"https://www.fahasa.com/sales/order/view/order_id/9729569/\"",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {},
+                "type": "navigate",
+                "url": "https://www.fahasa.com/sales/order/view/order_id/9729569/"
+            },
+            {
+                "description": "Loading of \"https://www.fahasa.com/sales/order/history/\"",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {},
+                "type": "navigate",
+                "url": "https://www.fahasa.com/sales/order/history/"
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "css",
+                            "value": "#cancel-order-103800307"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//div[@id=\\'reason-2\\']/div/div', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            },
+            {
+                "description": "click",
+                "wait": {
+                    "waitFor": "page_complete"
+                },
+                "target": {
+                    "locators": [
+                        {
+                            "type": "dom",
+                            "value": "document.evaluate('//button[@id=\\'confirm-103800307\\']/span', document, null, XPathResult.ANY_TYPE, null).iterateNext()"
+                        }
+                    ]
+                },
+                "type": "click",
+                "button": 0
+            }
+        ]
+    }
+}
